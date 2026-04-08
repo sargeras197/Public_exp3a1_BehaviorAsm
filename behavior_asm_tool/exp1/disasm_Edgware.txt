@@ -1,0 +1,51 @@
+[INFO] Дизасембльовано інструкцій: 15534
+0x140001000: dec eax
+0x140001001: mov eax, dword ptr [0x3eff9]
+0x140001007: mov dword ptr [eax], ecx
+0x140001009: dec eax
+0x14000100a: mov eax, dword ptr [0x3eff0]
+0x140001010: dec eax
+0x140001011: mov dword ptr [eax + 8], edx
+0x140001014: dec eax
+0x140001015: mov ecx, dword ptr [0x3efe5]
+0x14000101b: jmp 0x40002b80
+0x140001020: dec eax
+0x140001021: lea eax, [0x443c1]
+0x140001027: ret 
+0x140001028: int3 
+0x140001029: int3 
+0x14000102a: int3 
+0x14000102b: int3 
+0x14000102c: int3 
+0x14000102d: int3 
+0x14000102e: int3 
+0x14000102f: int3 
+0x140001030: dec eax
+0x140001031: mov dword ptr [esp + 0x10], ebx
+0x140001035: dec eax
+0x140001036: mov dword ptr [esp + 0x20], esi
+0x14000103a: dec esp
+0x14000103b: mov dword ptr [esp + 0x18], eax
+0x14000103f: push edi
+0x140001040: inc ecx
+0x140001041: push esp
+0x140001042: inc ecx
+0x140001043: push ebp
+0x140001044: inc ecx
+0x140001045: push esi
+0x140001046: inc ecx
+0x140001047: push edi
+0x140001048: dec eax
+0x140001049: sub esp, 0x30
+0x14000104c: dec esp
+0x14000104d: mov esi, edx
+0x14000104f: xor esi, esi
+0x140001051: dec eax
+0x140001052: lea edx, [0x2c7cc]
+0x140001058: inc esp
+0x140001059: mov edi, esi
+0x14000105b: dec ecx
+0x14000105c: mov edi, eax
+0x14000105e: dec eax
+0x14000105f: mov ebx, ecx
+0x140001061: inc ecx
